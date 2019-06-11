@@ -3,7 +3,15 @@
 
 # YOUR CODE HERE
 
+import math
+import sys
+
 num = 2 
 
-print(num**65536)
+#print(num**65536)
+
+#this is going to be an overflow
+bigNumber = math.pow(2, 65536) 
+
+print(bigNumber)
 
